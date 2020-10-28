@@ -1,0 +1,18 @@
+#header {
+    background-color: lightblue;
+}
+
+#title {
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+#navbar {
+    float: right;
+    font-size: 20px;
+    font-family: monospace
+}
+
+#navbarHead {
+    padding-top: 10px;
+}
