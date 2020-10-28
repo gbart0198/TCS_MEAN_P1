@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(240,250,250);
+}
+
+#homeContainer {
+    max-width: 100%;
+    background-image: url("./img/thompson.jpg")
+}
+
+#floatingContent {
+    padding-top: 150px;
+    padding-bottom: 35%;
+}
+
+#aboutMe {
+    padding-left: 30px;
+    color: white;
+    background-color: rgba(0,0,0,0.75);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#aboutMeName {
+    padding-left: 20px;
+    letter-spacing: 2px;
+    font-stretch: ultra-expanded;
+}
+
+#introText {
+    font-size: 18px;
+}
+
+#period {
+    color: orange;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skillsAbout {
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+img:hover{
+    border: 3px solid black;
+}
+
+#imgHover {
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#pythonImg {
+    background: transparent;
+    width: 200px;
+    height:200px;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+}
+
+#otherImg {
+    margin-top: 15px;
+    margin-bottom: auto;
+    width: 256.5px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#otherImg2 {
+    width: 175px;
+    height:175px;
+    margin-left: 0;
+    margin-right: auto;
+    display: block;
+}

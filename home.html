@@ -6,47 +6,108 @@
     <title>Home -- Garrett Bartley</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="js/myscript.js"></script>
+    <script src="js/home.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container-fluid" id="header">
+  <!----------------HEADER INFO---------------------------------->
+  <div class="container-fluid" id="header">
+      <div class="row">
+          <div class="col-md" id="title">
+              <div class="row">
+                  <h3 id="titleName">Garrett Bartley</h3>
+              </div>
+              <div class="row">
+                  <p id="occupation">Software Developer/Engineer</p>
+              </div>
+          </div>
+          <div class="col-md" id="navbarHead">
+              <nav class="navbar navbar-expand-lg navbar-light" id="navbar"> 
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navbar-right">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./blogs.html">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+          </div>
+      </div>
+  </div>
+
+  <!-------------------------END OF HEADER------------------------>
+
+  <!-------------------------IMAGE AND ABOUT ME-->
+  <div class="container-fluid" id="homeContainer">
+    <div class="row" id="floatingContent">
+      <div class="col-lg-2">
+      </div>
+      <div class="col-lg-2" id="aboutMe">
         <div class="row">
-            <div class="col-md" id="title">
-                <div class="row">
-                    <h3>Garrett Bartley</h3>
-                </div>
-                <div class="row">
-                    <p>Software Developer/Engineer</p>
-                </div>
-            </div>
-            <div class="col-md" id="navbarHead">
-                <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav navbar-right">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="./about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="./blogs.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="./contact.html">Contact</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
-            </div>
+          <h2 id="aboutMeName">Garrett Bartley<span id="period">.</span></h2>
         </div>
+        <div class="row mb-2">
+          <p id="introText">Hi! I am <span id="nameLabel">Garrett Bartley</span> and I am a software engineer at Tata Consultancy Services. 
+            My favorite programming tools currently are Python, JS, and a little bit of Rust.</p>
+        </div>
+      </div>  
     </div>
+  </div>
+  <!--------------------------------------------->
+
+  <!----------------MY SKILLS--------------------->
+  <div class="container-fluid">
+    <div class="row mb-5"></div>
+    <div class="row mb-2">
+      <div class="col-lg">
+        <h1>My Skills</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="skillsAbout">
+        <p>Over the last 4 years, I have accumulated a large variety of skills related to software development.
+          My goal is to continue to learn and to expand on my knowledge. Some of my best skills are presented below.
+          Mouse over the images to learn more about my experience with that technology.
+        </p>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div id="imgHover">
+      </div>
+    </div>
+    <div class="row mb-5">
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-4">
+        <a href="https://www.python.org/" target="_blank">
+        <img id="pythonImg" onmouseover="imgHover('py')" onmouseout="imgLeave()" src="https://lh3.googleusercontent.com/proxy/JmzL8iq2bJ8HM4hKO86ciqyjbKbDGDXrZQ9tsAKd2uztds3CIGGXYA6st-d4Rqw4JeAaPGpQOtF0R_2YIyZ0wLj-NhasVcpAGfnXXqs">
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://www.java.com/en/" target="_blank">
+        <img id="otherImg" onmouseover="imgHover('java')" onmouseout="imgLeave()" src="https://www.pngkey.com/png/full/223-2231151_java-java-logo.png">
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://www.cplusplus.com/" target="_blank">
+        <img id="otherImg2" onmouseover="imgHover('cpp')" onmouseout="imgLeave()" src="https://www.pngkey.com/png/full/178-1787734_as-the-standard-c-foundation-works-to-improve.png">
+        </a>
+      </div>
+    </div>
+
+  </div>
 </body>
 </html>
