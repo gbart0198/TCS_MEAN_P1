@@ -91,3 +91,8 @@ img:hover{
     margin-right: auto;
     display: block;
 }
+
+#nameLabel {
+    font-weight: bold;
+    font-style: italic;
+}
