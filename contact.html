@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/contact.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="js/myscript.js"></script>
+    <script src="js/contact.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -61,6 +61,68 @@
   <!-------------------------------------------------------------->
 
 
+
+
+  <!------------------FORM------------------------------->
+  <div class="container-fluid">
+    <div class="row mb-5">
+    </div>
+    <div class="row mb-5">
+      <div class="col-lg-2">
+      </div>
+      <div class="col-lg-7">
+        <div class="row">
+          <p id="contactSentence">If you would like to get in touch with me, please fill out the form below and I will reach out.</p>
+        </div>
+        <div class="row">
+          <!------------------START OF FORM DIV------------>
+          <div class="myForm">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-3">
+                  <label for="inputName">Name</label>
+                  <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+                <div class="form-group col-md-3">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group messageForm">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group messageForm">
+                </div>
+              </div>
+              <div class="form-group col-md-6 contactNum">
+                <label for="inputNumber">Contact Number</label>
+                <input type="text" class="form-control" id="inputNumber" placeholder="(XXX) XXX-XXXX">
+              </div>
+              <div class="form-row">
+                <div class="form-group messageForm">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group messageForm">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group messageForm">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" class="form-control textarea"></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary" onclick="contactSubmit()">Submit</button>
+            </form>
+          </div>
+          <!--------------------END OF FORM DIV-------------->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------------END OF FORM-------------------------->
 
   <!----------------FOOTER------------------------------->
   <div class="container-fluid" id="footer">
