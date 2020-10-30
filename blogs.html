@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/blogs.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="js/myscript.js"></script>
+    <script src="js/blogs.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -47,5 +49,69 @@
   </div>
 
   <!-------------------------END OF HEADER------------------------>
+
+  <div class="container-fluid" id="topLevelContainer">
+    <div class="row mb-4" id="newBlogRow"></div>
+    <div class="row mb-5">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-6 blogPost">
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="blogTitle">The Positives of Sleeping all Day</p>
+          </div>
+          <div class="col-lg-6">
+            <p class="blogAuthor">Garrett Bartley</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="blogSummaryDiv">
+            <hr>
+            <p class="blogSummary">When a person is able to sleep all day, there are some positive effects that are not talked about. In my post, I will
+              talk about those hidden truths and how they affect one's daily life.
+            </p>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="blogContentDiv">
+            <p class="blogContent">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis, justo in tincidunt pharetra, elit elit dapibus eros, 
+              eu molestie magna urna vel est. Maecenas scelerisque auctor dictum. Sed pulvinar orci vitae nisi ullamcorper egestas. Nam varius ultricies ornare. 
+              Fusce ut hendrerit sapien, sit amet fringilla sem. Phasellus consectetur suscipit pellentesque. Mauris nec faucibus velit, non volutpat augue. 
+              Donec ac enim et nibh placerat facilisis. Integer eu sagittis arcu. Nulla dapibus, lorem nec luctus dictum, nulla arcu tincidunt nibh, nec consequat 
+              ipsum ante ut nisi. Aliquam vitae nisi tincidunt, finibus ipsum eleifend, porttitor leo. Duis volutpat urna nulla, sed semper mauris commodo a. 
+              Nunc a gravida tellus, ac condimentum lorem. Fusce congue arcu diam.
+              Nunc gravida, arcu a mollis sagittis, erat elit luctus massa, porta bibendum mi metus at mi. Morbi quis quam interdum, 
+              cursus nibh ac, egestas nisl. In eget ipsum quis lectus semper scelerisque vel quis nulla. Suspendisse tellus eros, faucibus 
+              sed fermentum id, rhoncus quis odio. Etiam eros lorem, pulvinar eget sapien quis, hendrerit fermentum dolor. Proin et lacus tempus, tempus neque ac, 
+              laoreet elit. Mauris ex lacus, luctus quis magna vel, rhoncus cursus nisi. In vel maximus velit. Sed et dictum risus, at eleifend orci. Sed ultricies, 
+              sapien nec fringilla tempus, magna sapien ullamcorper enim, quis aliquet quam erat eget nunc. Cras varius, neque sed volutpat posuere, velit quam 
+              eleifend justo, vel consequat turpis nisl et sem. Aliquam at tincidunt mauris. Mauris porttitor imperdiet erat, sit amet lacinia orci mattis eget. Phasellus 
+              commodo posuere tempus. Morbi at posuere tellus.
+
+              Maecenas pretium, magna et finibus bibendum, augue diam gravida ipsum, ac vestibulum tellus mauris ac ex. Nulla posuere fermentum mi, a accumsan nunc 
+              sollicitudin et. Maecenas mattis enim a ante interdum pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. In sollicitudin dolor 
+              tincidunt mauris maximus convallis. Suspendisse malesuada maximus nunc, et scelerisque tellus convallis ut. Ut ac mi pulvinar, rhoncus erat a, 
+              vulputate massa. Donec eu nisi odio. Pellentesque velit est, volutpat non scelerisque ut, ultricies quis elit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-1" style=" text-align: center;">
+        <button type="submit" class="btn btn-primary" style="padding-top: 5px" id="createBlog" onclick="createBlog()">Create</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!----------------FOOTER------------------------------->
+  <div class="container-fluid" id="footer">
+    <div id="row">
+      <div class="text">
+      </div>
+    </div>
+  </div>
+  <!----------------------------------------------------->
 </body>
 </html>

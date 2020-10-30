@@ -1,0 +1,97 @@
+.myForm {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+
+body {
+    background-color: rgb(240,250,250);
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.messageForm {
+    padding-left: 5px;
+}
+
+#content{
+    width: 800px;
+    height: 200px;
+}
+
+#summary {
+    width: 800px;
+    height: 50px;
+}
+
+.topRow {
+    text-align: center;
+}
+
+.align-center {
+    margin: auto;
+}
+
+.author {
+    margin: auto;
+}
+
+.align-right {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.blogTitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: left;
+}
+
+.blogAuthor {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    text-align: right;
+}
+
+.blogPost {
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    overflow-wrap: break-word;
+}
+
+.blogSummary {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.blogContentDiv {
+    padding-right: 10px;
+    overflow-wrap: break-word;
+}
+
+#createBlog {
+    position: absolute;
+    
+}
+
+.blogDiv {
+    padding-top: 10px;
+}
